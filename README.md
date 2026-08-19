@@ -1,73 +1,170 @@
-# Welcome to your Lovable project
+# Sepsis Vigil – ICU Sepsis Alert System
 
-## Project info
+Sepsis Vigil is a healthcare web application designed to assist in the early identification and monitoring of sepsis risk among ICU patients. The application provides an intuitive interface for admitting patients, viewing patient records, monitoring vital signs, and displaying sepsis risk predictions to support timely clinical decision-making.
 
-**URL**: https://lovable.dev/projects/38153274-81bc-4992-9084-a01e9e2b144b
+This project was developed as an academic team project using **React, TypeScript, Vite, Tailwind CSS, and modern frontend technologies**.
 
-## How can I edit this code?
+# Project Features
 
-There are several ways of editing your application.
+- Admit new ICU patients through an interactive form.
+- Maintain a centralized patient list.
+- View individual patient details.
+- Monitor patient vital signs.
+- Display sepsis risk prediction results.
+- Clean and responsive user interface.
+- Modern component-based architecture.
+- Fast frontend powered by Vite.
 
-**Use Lovable**
+# Project Structure
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/38153274-81bc-4992-9084-a01e9e2b144b) and start prompting.
+```text
+sepsis-vigil
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── integrations/
+│   ├── lib/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── package.json
+├── package-lock.json
+├── vite.config.ts
+└── README.md
+```
 
-Changes made via Lovable will be committed automatically to this repo.
+# Technologies Used
 
-**Use your preferred IDE**
+## Frontend
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## UI Components
 
-Follow these steps:
+- shadcn/ui
+- Radix UI
+- Lucide React
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## State Management
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- TanStack React Query
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Backend / Integration
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- Supabase Client
+
+## Development Tools
+
+- ESLint
+
+## System Architecture
+
+```mermaid
+flowchart TD
+    A[Healthcare User] --> B[React + TypeScript Frontend]
+    B --> C[Backend Services]
+    C --> D[Patient Database]
+    C --> E[Sepsis Risk Prediction]
+    E --> B
+```
+
+# System Workflow
+
+1. User opens the Sepsis Vigil application.
+2. New ICU patients can be admitted through the admission form.
+3. Patient information is stored and displayed in the patient list.
+4. Users can open an individual patient's profile.
+5. Patient vital signs are monitored.
+6. The application displays the patient's sepsis risk prediction.
+7. Healthcare professionals can use the displayed information to assist clinical decision-making.
+
+# Application Modules
+
+## Patient Management
+
+- Admit new patients
+- View patient list
+- Access patient details
+
+## Vital Signs Monitoring
+
+- Record patient vitals
+- Display patient health information
+
+## Sepsis Prediction
+
+- Display predicted sepsis risk
+- Present prediction results through the user interface
+
+# Local Setup
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/Sinchana46/sepsis-vigil.git
+```
+
+## Navigate to the Project Directory
+
+```bash
+cd sepsis-vigil
+```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Start Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+# Build for Production
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+```
 
-## What technologies are used for this project?
+Preview the production build
 
-This project is built with:
+```bash
+npm run preview
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# Project Highlights
 
-## How can I deploy this project?
+- Modern React application
+- TypeScript implementation
+- Component-based architecture
+- Responsive healthcare dashboard
+- Modular UI using shadcn/ui
+- Fast development with Vite
+- Clean and scalable code structure
 
-Simply open [Lovable](https://lovable.dev/projects/38153274-81bc-4992-9084-a01e9e2b144b) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+# Future Enhancements
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Real-time patient monitoring
+- Integration with hospital databases
+- Machine Learning model deployment
+- Doctor authentication
+- Electronic Health Record (EHR) integration
+- Alert notifications
+- Patient history visualization
+- Analytics dashboard
