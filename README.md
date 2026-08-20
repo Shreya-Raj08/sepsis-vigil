@@ -161,12 +161,6 @@ For a patient whose vitals are within normal range, the same view reports a GREE
 
 ![Patient detail view for a low-risk patient showing a green risk badge, a 0.100 risk score, and in-range vitals](docs/screenshots/04-low-risk-patient.png)
 
-## Responsive Layout
-
-The interface adapts to smaller screens, stacking the patient cards and header controls for use on tablets and phones at the bedside.
-
-![Patient list rendered on a narrow mobile viewport with stacked patient cards and wrapped header](docs/screenshots/05-mobile-view.png)
-
 # Build for Production
 
 ```bash
