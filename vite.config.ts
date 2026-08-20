@@ -5,6 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // Production builds are served from a GitHub Pages project subpath.
+  base: mode === "production" ? "/sepsis-vigil/" : "/",
   server: {
     host: "::",
     port: 8080,
