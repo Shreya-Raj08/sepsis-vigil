@@ -4,6 +4,26 @@ Sepsis Vigil is a healthcare web application designed to assist in the early ide
 
 This project was developed as an academic team project using **React, TypeScript, Vite, Tailwind CSS, and modern frontend technologies**.
 
+# Screenshots
+
+## Patient List
+
+The main dashboard lists all admitted ICU patients with their latest sepsis risk score and a colour-coded alert badge, so the highest-risk patients stand out at a glance.
+
+![Patient list dashboard showing four ICU patients with colour-coded sepsis risk badges](docs/screenshots/01-patient-list.png)
+
+## Admit Patient
+
+New patients are admitted through a simple form capturing patient ID, age, and gender.
+
+![Admit new patient form with patient ID, age, and gender fields](docs/screenshots/02-admit-patient.png)
+
+## Patient Detail, Vitals & Risk Assessment
+
+The patient view combines the active sepsis alert and its top contributing features with a vitals entry panel, a 24-hour vitals history, and the ML risk assessment action. Out-of-range values are highlighted in red, and clinicians can confirm, reject, or flag the alert for investigation.
+
+![Patient detail view showing an active red-risk sepsis alert, contributing features, vitals recording panel, and recent vitals history](docs/screenshots/03-patient-detail.png)
+
 # Project Features
 
 - Admit new ICU patients through an interactive form.
@@ -108,7 +128,7 @@ flowchart TD
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/Sinchana46/sepsis-vigil.git
+git clone https://github.com/Shreya-Raj08/sepsis-vigil.git
 ```
 
 ## Navigate to the Project Directory
@@ -132,8 +152,10 @@ npm run dev
 The application will be available at:
 
 ```
-http://localhost:5173
+http://localhost:8080
 ```
+
+> The dev server port is set to `8080` in `vite.config.ts`, not Vite's default `5173`.
 
 # Build for Production
 
