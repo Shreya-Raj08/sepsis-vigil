@@ -6,9 +6,7 @@ This project was developed as an academic team project using **React, TypeScript
 
 # Live Demo
 
-**[View the live application →](https://shreya-raj08.github.io/sepsis-vigil/)**
-
-The demo runs against a live backend, so patients, vitals, and alerts are all real data from the application's database.
+https://shreya-raj08.github.io/sepsis-vigil/
 
 # Project Features
 
