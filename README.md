@@ -4,6 +4,12 @@ Sepsis Vigil is a healthcare web application designed to assist in the early ide
 
 This project was developed as an academic team project using **React, TypeScript, Vite, Tailwind CSS, and modern frontend technologies**.
 
+# Live Demo
+
+**[View the live application →](https://shreya-raj08.github.io/sepsis-vigil/)**
+
+The demo runs against a live backend, so patients, vitals, and alerts are all real data from the application's database.
+
 # Project Features
 
 - Admit new ICU patients through an interactive form.
