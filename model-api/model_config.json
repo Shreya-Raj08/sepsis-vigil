@@ -1,0 +1,60 @@
+{
+  "features": [
+    "HR",
+    "SBP",
+    "MAP",
+    "DBP",
+    "Resp",
+    "O2Sat",
+    "Temp",
+    "Hour",
+    "Age",
+    "Gender",
+    "HR_mean6h",
+    "HR_std6h",
+    "SBP_mean6h",
+    "SBP_std6h",
+    "MAP_mean6h",
+    "MAP_std6h",
+    "DBP_mean6h",
+    "DBP_std6h",
+    "Resp_mean6h",
+    "Resp_std6h",
+    "O2Sat_mean6h",
+    "O2Sat_std6h",
+    "Temp_mean6h",
+    "Temp_std6h",
+    "HR_delta",
+    "SBP_delta",
+    "MAP_delta",
+    "DBP_delta",
+    "Resp_delta",
+    "O2Sat_delta",
+    "Temp_delta",
+    "HR_trend3h",
+    "SBP_trend3h",
+    "MAP_trend3h",
+    "DBP_trend3h",
+    "Resp_trend3h",
+    "O2Sat_trend3h",
+    "Temp_trend3h"
+  ],
+  "vital_features": [
+    "HR",
+    "SBP",
+    "MAP",
+    "DBP",
+    "Resp",
+    "O2Sat",
+    "Temp"
+  ],
+  "other_features": [
+    "Hour",
+    "Age",
+    "Gender"
+  ],
+  "thresholds": {
+    "yellow": 0.3,
+    "red": 0.7
+  }
+}

@@ -359,7 +359,7 @@ const PatientDetail = () => {
                 onPredictionComplete={fetchPatientData}
               />
               <p className="text-xs text-muted-foreground mt-3">
-                Analyzes vitals and lab data to predict next-hour sepsis risk using ML model
+                Analyzes current and recent vital-sign trends using an XGBoost model to estimate sepsis risk.
               </p>
             </Card>
           </div>
